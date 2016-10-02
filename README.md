@@ -7,9 +7,9 @@ Jira Dashboard using Atlassian.SDK -.Net
 
 IN APP data - JiraCredentials.xml 
 
-<?xml version="1.0" encoding="utf-8" ?>
-<JiraCredentials>
-<Url></Url>
-<User></User>
-<Password></Password>
-</JiraCredentials>
+#<?xml version="1.0" encoding="utf-8" ?>
+#<JiraCredentials>
+#<Url></Url>
+#<User></User>
+#<Password></Password>
+#</JiraCredentials>
