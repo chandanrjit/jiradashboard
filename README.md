@@ -5,8 +5,9 @@ Jira Dashboard using Atlassian.SDK -.Net
 
 ##jiraWebAPI -- Restful API to read jira list
 In app_data - JiraCredentials.xml 
-```<JiraCredentials>
+```
+<JiraCredentials>
 <Url></Url>
 <User></User>
 <Password></Password>
-</JiraCredentials>```
+</JiraCredentials>
