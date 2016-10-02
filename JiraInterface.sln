@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiraInterface", "JiraInterface\JiraInterface.csproj", "{B6953601-2463-4B8A-8C1F-D6C0C0128B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jiraWebAPI", "jiraWebAPI\jiraWebAPI.csproj", "{CAADE47A-E947-4434-B078-CD79B53D21FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6953601-2463-4B8A-8C1F-D6C0C0128B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6953601-2463-4B8A-8C1F-D6C0C0128B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6953601-2463-4B8A-8C1F-D6C0C0128B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6953601-2463-4B8A-8C1F-D6C0C0128B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAADE47A-E947-4434-B078-CD79B53D21FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAADE47A-E947-4434-B078-CD79B53D21FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAADE47A-E947-4434-B078-CD79B53D21FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAADE47A-E947-4434-B078-CD79B53D21FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

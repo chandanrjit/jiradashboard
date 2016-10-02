@@ -1,0 +1,13 @@
+D:\Workspace\Code\Jira\Jiradashboard\JiraInterface\obj\Debug\JiraInterface.csprojResolveAssemblyReference.cache
+D:\Workspace\Code\Jira\Jiradashboard\JiraInterface\bin\JiraInterface.dll.config
+D:\Workspace\Code\Jira\Jiradashboard\JiraInterface\bin\JiraInterface.dll
+D:\Workspace\Code\Jira\Jiradashboard\JiraInterface\bin\JiraInterface.pdb
+D:\Workspace\Code\Jira\Jiradashboard\JiraInterface\bin\Atlassian.Jira.dll
+D:\Workspace\Code\Jira\Jiradashboard\JiraInterface\bin\Newtonsoft.Json.dll
+D:\Workspace\Code\Jira\Jiradashboard\JiraInterface\bin\RestSharp.dll
+D:\Workspace\Code\Jira\Jiradashboard\JiraInterface\bin\Atlassian.Jira.pdb
+D:\Workspace\Code\Jira\Jiradashboard\JiraInterface\bin\Atlassian.Jira.xml
+D:\Workspace\Code\Jira\Jiradashboard\JiraInterface\bin\Newtonsoft.Json.xml
+D:\Workspace\Code\Jira\Jiradashboard\JiraInterface\bin\RestSharp.xml
+D:\Workspace\Code\Jira\Jiradashboard\JiraInterface\obj\Debug\JiraInterface.dll
+D:\Workspace\Code\Jira\Jiradashboard\JiraInterface\obj\Debug\JiraInterface.pdb

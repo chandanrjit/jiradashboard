@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/angular.min.js" type="text/javascript"></script>
+    <script src="controller/jiraController.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="Content/bootstrap.min.css" type="text/css" />
+</head>
+<body>
+    <div ng-app="jiraapp">
+        <div ng-controller="jiraCtrl">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Jira No</th>
+                        <th>Summary</th>
+                        <th>Assignee</th>
+                        <th>Status</th>
+                        <th>Planned Start Date</th>
+                        <th>Planned End date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="active" ng-repeat="X in results">
+                        <td>{{X["Key"]["Value"]}}</td>
+                        <td>{{X["Summary"]}}</td>
+                        <td>{{X["Assignee"]}}</td>
+                        <td ng-style='{"color":(X["Status"]["Name"]=="In - SIT" ?"green":X["Status"]["Name"]=="Ready to Test - SIT" ?"green":X["Status"]["Name"]=="To Do" ?"red":"blue")}'>
+                            {{X["Status"]["Name"]}}
+                        </td>
+                        
+                        <td>
+                            <span ng-if='X["CustomFields"][1]["Name"]=="Planned Start Date"'>
+                                {{X["CustomFields"][1]["Values"][0] | date:'mediumDate'}}
+                            </span>
+                        </td>
+
+                        <td>
+                            <span ng-if='X["CustomFields"][2]["Name"]=="Planned End Date"'>
+                                {{X["CustomFields"][2]["Values"][0]| date:'mediumDate'}}
+                                </span>
+</td>
+                    </tr>
+                    
+                </tbody>
+            </table>       
+                 
+        </div>
+    </div>
+</body>
+</html>
